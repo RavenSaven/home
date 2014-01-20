@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Put your title here</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div class="content">
+		<div class="background hauptbereich">
+		</div>
+		<div class="center_block hauptbereich">
+			<div class="content">
+				<div class="top_block kopf kopfzeile">
+					<div class="content">
+						<div class="top_block menu">
+							<div class="content">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom_block fußleiste">
+					<div class="content">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
