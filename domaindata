@@ -1,0 +1,44 @@
+<?php
+
+define('DB_NAME', 'savendadraven_c');
+
+/** MySQL-Datenbank-Benutzername */
+define('DB_USER', 'savendadraven_c');
+
+/** MySQL-Passwort */
+define('DB_PASSWORD', 'Futzi1122');
+
+/** MySQL-Serveradresse */
+define('DB_HOST', '10.246.16.59');
+
+/** Zeichensatz */
+define('DB_CHARSET', 'utf8');
+
+collate type sollte nicht geändert werden */
+define('DB_COLLATE', '');
+
+
+
+
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
+
+
+
+$table_prefix  = 'rave_';
+
+
+
+
+/** Absolute path. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
+
+/** Set up Variablen und so */
+require_once(ABSPATH . 'settings.php');
